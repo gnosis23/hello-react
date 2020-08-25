@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## 分支
+
+- state 1: 单组件
+- state 2：父子组件
+- state 3：context
+- hooks：各种hooks使用
+
 ## Available Scripts
 
 In the project directory, you can run:
