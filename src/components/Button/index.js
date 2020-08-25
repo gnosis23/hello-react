@@ -1,17 +1,14 @@
-import React, { useState, useCallback } from 'react';
+import React from 'react';
 
-export default function Button(props) {
-  const [count, setState] = useState(0);
+export default function Button({ onClick }) {
 
   const handleClick = () => {
-    setState(count + 1);
-    console.log(count + 1)
-    // setState(c => c + 1);
+    onClick && onClick();
   };
 
   // const handleClick = useCallback(() => {
-  //   setState(c => c + 1)
-  // }, []);
+  //   onClick && onClick();
+  // }, [onClick]);
 
   return (
     <button onClick={handleClick}>test button</button>

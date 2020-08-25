@@ -1,10 +1,10 @@
 import React from 'react';
-import Button from "../../components/Button";
+import ButtonGroup from "../../components/ButtonGroup";
 
 export default function MainPage(props) {
   return (
     <div>
-      <Button />
+      <ButtonGroup />
     </div>
   )
 }
