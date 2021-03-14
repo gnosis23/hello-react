@@ -1,12 +1,12 @@
 import React from 'react';
 import Button from "../../components/Button";
-import CSSMotionList from "../../components/CSSMotionList";
+import ImmerDemo from '../../components/ImmerDemo';
 
 export default function MainPage(props) {
   return (
     <div>
       <Button />
-      <CSSMotionList />
+      <ImmerDemo />
     </div>
   )
 }
