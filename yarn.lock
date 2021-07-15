@@ -1297,6 +1297,16 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@headlessui/react@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.nlark.com/@headlessui/react/download/@headlessui/react-1.3.0.tgz#62287c92604923e5dfb394483e5ec2463e1baea6"
+  integrity sha1-Yih8kmBJI+Xfs5RIPl7CRj4brqY=
+
+"@heroicons/react@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.nlark.com/@heroicons/react/download/@heroicons/react-1.0.2.tgz#e44a25d139e6fc8f94f4b146aeebad8f9af3d7dc"
+  integrity sha1-5Eol0Tnm/I+U9LFGruutj5rz19w=
+
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
   resolved "https://registry.nlark.com/@humanwhocodes/config-array/download/@humanwhocodes/config-array-0.5.0.tgz?cache=0&sync_timestamp=1625264021699&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40humanwhocodes%2Fconfig-array%2Fdownload%2F%40humanwhocodes%2Fconfig-array-0.5.0.tgz#1407967d4c6eecd7388f83acf1eaf4d0c6e58ef9"

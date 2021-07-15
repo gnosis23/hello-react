@@ -5,10 +5,15 @@ import './index.css';
 
 import popularDestinations  from '../../data/popularDestinations';
 import DestinationCard from "../../components/DestinationCard";
+import DropdownMenu from "../../components/DropdownMenu";
 
 export default function MainPage(props) {
   return (
     <div className="bg-gray-100">
+      <div className="fixed right-0">
+        <DropdownMenu />
+      </div>
+
       <div className="bg-grid-100 grid lg:grid-cols-2 2xl:grid-cols-5">
         <div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0">
           <img className="h-10" src={logo} alt="workcation" />
@@ -35,7 +40,6 @@ export default function MainPage(props) {
             <DestinationCard key={destination.city} destination={destination} />
           ))}
         </div>
-
 
       </div>
     </div>
