@@ -1,0 +1,50 @@
+.audio {
+  display: inline-flex;
+  align-items: center;
+  width: 260px;
+  height: 30px;
+  opacity: 1;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  padding: 0 16px;
+  .icon {
+    cursor: pointer;
+    margin-right: 12px;
+  }
+  .line {
+    position: relative;
+    width: 160px;
+    height: 3px;
+  }
+  .line0 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1px;
+    opacity: 1;
+    border: 2px solid #dddddd;
+    border-radius: 1px;
+  }
+  .line1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 4px;
+    opacity: 1;
+    //border: 2px solid $primaryColor;
+    border-radius: 1px;
+    background-color: #0098df;
+  }
+  .time {
+    opacity: 1;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #666666;
+    line-height: 14px;
+    margin-left: 12px;
+  }
+}

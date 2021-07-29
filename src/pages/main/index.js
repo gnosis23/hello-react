@@ -1,25 +1,16 @@
-import React from 'react';
-import logo from '../../assets/img/logo.svg';
-import women from '../../assets/img/beach-work.jpeg';
+import React, {useState} from 'react';
 import './index.css';
+import Audio from "../../components/Audio";
 
-import popularDestinations  from '../../data/popularDestinations';
-import DestinationCard from "../../components/DestinationCard";
-import DropdownMenu from "../../components/DropdownMenu";
-import Paragraph from "../../components/Paragraph";
+const mp3One = 'https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3';
+const mp3Two = 'https://u-play-1259430598.cos.ap-shanghai.myqcloud.com/test/tts/library/question/74988794452918272.wav';
 
 export default function MainPage(props) {
+  const [src, setSrc] = useState(0);
   return (
     <div>
-      <p>Only this paragraph will get the style :)</p>
-
-      <Paragraph />
-
-      <style jsx>{`
-        p {
-          color: red;
-        }
-      `}</style>
+      <button onClick={() => setSrc(s => s + 1)}>toggle</button>
+      <Audio src={src % 2 === 0 ? mp3One : mp3Two} />
     </div>
   )
 }
