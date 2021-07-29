@@ -13,6 +13,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^4.0.3",
+    "styled-jsx": "^3.4.4",
     "use-immer": "^0.4.2"
   },
   "scripts": {
